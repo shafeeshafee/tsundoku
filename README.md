@@ -8,8 +8,8 @@
 <br/>
 
 <div align="center">
-  <h1 align="center">Tsnundoku  (積ん読)</h1>
-"The art of buying books and never reading them."
+  <h1 align="center">Tsundoku  (積ん読)</h1>
+BOOKS ARE HERE TO STAY.
 </div>
 <br />
 
@@ -67,7 +67,7 @@ We approached this idea for our indivual appreciation to discover new books, and
 <img width="90%" src="https://i.imgur.com/u2MI4ye.png" alt="Gif of our app">
 </div>
 <br />
-This experience aligns with our personal ambitions as software engineers, front and backend engineers, and UI/UX engineers. We want to make reading books sexy again through creative web design.
+This experience aligns with our personal ambitions as software engineers, and UI/UX engineers. We want to make reading books sexy again through creative web design.
 
 # How We Built It
 
@@ -96,8 +96,8 @@ This project was conceptualized by building wireframes and prototypes using Figm
 
 We learned the following:
 
-- Accessing & Navigating Google Books API
-- Grid system Tailwind CSS
+- Accessing & Navigating Google Books API.
+- Grid system Tailwind CSS.
 
 # Plans
 
