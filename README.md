@@ -53,7 +53,7 @@ Books are here to stay.   <br />
 
 <br />
 
-## What It Does
+# What It Does
 
 Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project.
 
@@ -61,9 +61,10 @@ Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. 
 <div>
 <img width="90%" src="https://i.imgur.com/ThUYy0W.png" alt="Gif of our app">
 </div>
-<hr />
 
-## Inspiration
+<br />
+
+# Inspiration
 
 We approached this idea for our indivual appreciation to discover new books, and our lifelong desire to learn new things.
 
@@ -73,19 +74,11 @@ We approached this idea for our indivual appreciation to discover new books, and
 <br />
 This experience aligns with our personal ambitions as software engineers, front and backend engineers, and UI/UX engineers. We want to make reading books sexy again through creative web design.
 
-
-<hr />
-<br />
-
-## How We Built It
+# How We Built It
 
 This project was conceptualized by building wireframes and prototypes using Figma. We then built our project over 2 weeks. We used React and Redux, React Native and Tailwind CSS.
 
-<br />
-
-
-## Accomplishments
-
+# Accomplishments
 
 - App decision was mutual among everyone.
 - Implement Redux into our project.
@@ -94,32 +87,26 @@ This project was conceptualized by building wireframes and prototypes using Figm
 - Overall team synergy and cooperation.
 - All the awesome work we collectively invested.
 
-<br />
+# What We Learned
 
-## What We Learned
+We learned the following:
 
-We learned the following very quickly:
+- Accessing & Navigating Google Books API
+- Grid system Tailwind CSS
 
-- Accessing & Navigating Google API
-- Tailwind.CSS
-  
-<br />
-
-## Plans
-
+# Plans
 
 We are looking foward to many new opportunities in the near future, including:
 
-- Collaborating on user authentication.
+- Working on implementing on user authentication for registration.
+- Collaborating with book stores and libraries.
 - Gathering New York Public Library data to familiarize New Yorkers with libraries.
 - Give literary events more exposure.
 - Implement Firebase for backend storage.
-<br />
 <!-- BUILT WITH -->
 <br />
 
 ## Built With:
-
 
 <!-- - [Redux](https://redux.js.org/)
 - [ReactJS](https://reactjs.org)
