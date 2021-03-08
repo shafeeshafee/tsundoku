@@ -44,21 +44,15 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## Getting Started
+# What is Tsundoku?
 
-1.  Register and retrieve API token from [The New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
-2.  Set up credentials for [Google Books API](https://developers.google.com/books) and retrieve API token
-3.  Implement dotenv with corresponding environmental variables
-4.  <code> yarn install </code>
-5.  <code> yarn start </code>
+<i>Tsnundoku</i> (n.) is a Japanese term that refers to the act of acquiring books that then pile up, often unread, in one's home.
 
-<br />
+This app is a book discovery platform. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project section on our app.
 
-# What It Does
+## Where does it become useful?
 
-Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project on our app.
-
-Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books.
+Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books. On Tsundoku, enjoy a delicious experience with no clutter.
 <div>
 <img width="90%" src="https://i.imgur.com/ThUYy0W.png" alt="Gif of our app">
 </div>
@@ -78,6 +72,16 @@ This experience aligns with our personal ambitions as software engineers, front 
 # How We Built It
 
 This project was conceptualized by building wireframes and prototypes using Figma. We then built our project over 2 weeks. We used React and Redux, React Native and Tailwind CSS.
+
+# Getting Started
+
+1.  Register and retrieve API token from [The New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
+2.  Set up credentials for [Google Books API](https://developers.google.com/books) and retrieve API token
+3.  Implement dotenv with corresponding environmental variables
+4.  <code> yarn install </code>
+5.  <code> yarn start </code>
+
+<br />
 
 # Accomplishments
 
