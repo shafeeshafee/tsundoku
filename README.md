@@ -1,11 +1,17 @@
 ###
 
-  <h1 align="center">Tsnundoku</h1>
+  <h1 align="center">Tsnundoku  (積ん読)</h1>
 
   <p align="center">
-Discover. Connect. Inspire.    <br />
+Books are here to stay.   <br />
   </p>
 </p>
+
+<br/>
+<p align="center">
+    <img width="80%" src="https://i.imgur.com/bWjhKsx.png" alt="Gif of our app">
+</p>
+<br/>
 
 <!-- TABLE OF CONTENTS -->
 <!-- <details open="open">
@@ -37,35 +43,58 @@ Discover. Connect. Inspire.    <br />
 
 <!-- ABOUT THE PROJECT -->
 
-### Authentication
+## Getting Started
 
-1.  Get a free API Key at [https://developer.nytimes.com/docs/books-product/1/overview](https://developer.nytimes.com/docs/books-product/1/overview) (Best Seller)
-2.  Get a free API key at [https://developers.google.com/books](https://developers.google.com/books)(Search for Books)
+1.  Register and retrieve API token from [The New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
+2.  Set up credentials for [Google Books API](https://developers.google.com/books) and retrieve API token
+3.  Implement dotenv with corresponding environmental variables
+4.  <code> yarn install </code>
+5.  <code> yarn start </code>
 
-## Inspiration
+<br />
 
 ## What It Does
 
-Tsnundoku is a library for any type of books avaible at the users finger tips. We have a main Landing page that diplays users with the current and Best selling books. The application has an integreted search bar, allowing users to search for books as they please.
+Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project.
 
-We approached this idea for our indivual appreciation to Discover new books, and our lifelong desire to learn new things.
+Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books.
+<div>
+<img width="90%" src="https://i.imgur.com/ThUYy0W.png" alt="Gif of our app">
+</div>
+<hr />
 
-This experience aligns with our personal ambitions as software engineers, front and backend engineers, and UI/UX engineers.
+## Inspiration
+
+We approached this idea for our indivual appreciation to discover new books, and our lifelong desire to learn new things.
+
+<div>
+<img width="90%" src="https://i.imgur.com/u2MI4ye.png" alt="Gif of our app">
+</div>
+<br />
+This experience aligns with our personal ambitions as software engineers, front and backend engineers, and UI/UX engineers. We want to make reading books sexy again through creative web design.
+
+
+<hr />
+<br />
 
 ## How We Built It
 
-This project was conceptualized by building wireframes and prototypes using Figma. We then built our project over 2 weeks. We used ReactJS, React Native and TailwindCSS, and Redux.
+This project was conceptualized by building wireframes and prototypes using Figma. We then built our project over 2 weeks. We used React and Redux, React Native and Tailwind CSS.
 
-## Challenges We Ran Into
+<br />
+
 
 ## Accomplishments
 
-We hope to accomplish the following in a short period of time:
 
-- Implement Redux into our project
+- App decision was mutual among everyone.
+- Implement Redux into our project.
+- Create a React Native clone of our web app.
 - Architecting a complete project in a short period of time.
 - Overall team synergy and cooperation.
 - All the awesome work we collectively invested.
+
+<br />
 
 ## What We Learned
 
@@ -73,25 +102,36 @@ We learned the following very quickly:
 
 - Accessing & Navigating Google API
 - Tailwind.CSS
+  
+<br />
 
-## What's Next
+## Plans
 
-We are looking foward to many new opportunities in the near future, including;
 
-- Collaborating on User authentication
+We are looking foward to many new opportunities in the near future, including:
 
+- Collaborating on user authentication.
+- Gathering New York Public Library data to familiarize New Yorkers with libraries.
+- Give literary events more exposure.
+- Implement Firebase for backend storage.
+<br />
 <!-- BUILT WITH -->
+<br />
 
-## Built With
+## Built With:
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-- [Redux](https://redux.js.org/)
+<!-- - [Redux](https://redux.js.org/)
 - [ReactJS](https://reactjs.org)
 - [React Native](https://reactnative.dev/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [Google Books API](https://cloud.google.com/vision/)
-- [New York Times API](https://developer.nytimes.com/docs/books-product/1/overview)
+- [New York Times API](https://developer.nytimes.com/docs/books-product/1/overview) -->
+
+| <a href="https://tailwindcss.com/"><img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" width="80" height="80" /></a> | <a href="https://www.javascript.com/"><img src="https://www.svgrepo.com/show/303206/javascript-logo.svg" width="80" height="80" /></a> | <a href="https://reactjs.org/"><img src="https://www.svgrepo.com/show/303157/react-logo.svg" width="80" height="80" /></a> | <a href="https://developers.google.com/books/docs/v1/getting_started"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" width="80" height="auto" /></a> | <a href="(https://developer.nytimes.com/docs/books-product/1/overview"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvt2KJ1zQMvJuSc1ennA1ORmtJNxlJVrJy8g&usqp=CAU" width="80" height="80" /></a> | <a href="https://material-ui.com/"><img src="https://material-ui.com/static/logo.png" width="80" height="80" /></a> |  |
+|-----------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--|
+
+<br />
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -103,7 +143,7 @@ This section should list any major frameworks that you built your project using.
 
 <!-- CONTACT -->
 
-## Our Team
+## Connect with us
 
 - Diana Gaona - [LinkedIn](https://www.linkedin.com/in/dianacgaona/)
 
