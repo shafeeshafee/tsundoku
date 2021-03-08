@@ -1,17 +1,18 @@
 ###
 
-  <h1 align="center">Tsnundoku  (積ん読)</h1>
-
-  <p align="center">
-Books are here to stay.   <br />
-  </p>
-</p>
 
 <br/>
 <p align="center">
     <img width="80%" src="https://i.imgur.com/bWjhKsx.png" alt="Gif of our app">
 </p>
 <br/>
+
+<div align="center">
+  <h1 align="center">Tsnundoku  (積ん読)</h1>
+"The art of buying books and never reading them."
+</div>
+<br />
+
 
 <!-- TABLE OF CONTENTS -->
 <!-- <details open="open">
