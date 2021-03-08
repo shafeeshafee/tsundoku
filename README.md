@@ -1,17 +1,18 @@
 ###
 
-  <h1 align="center">Tsnundoku  (積ん読)</h1>
-
-  <p align="center">
-Books are here to stay.   <br />
-  </p>
-</p>
 
 <br/>
 <p align="center">
     <img width="80%" src="https://i.imgur.com/bWjhKsx.png" alt="Gif of our app">
 </p>
 <br/>
+
+<div align="center">
+  <h1 align="center">Tsnundoku  (積ん読)</h1>
+"The art of buying books and never reading them."
+</div>
+<br />
+
 
 <!-- TABLE OF CONTENTS -->
 <!-- <details open="open">
@@ -43,27 +44,22 @@ Books are here to stay.   <br />
 
 <!-- ABOUT THE PROJECT -->
 
-## Getting Started
+# What is Tsundoku?
 
-1.  Register and retrieve API token from [The New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
-2.  Set up credentials for [Google Books API](https://developers.google.com/books) and retrieve API token
-3.  Implement dotenv with corresponding environmental variables
-4.  <code> yarn install </code>
-5.  <code> yarn start </code>
+<i>Tsnundoku</i> (n.) is a Japanese term that refers to the act of acquiring books that then pile up, often unread, in one's home.
 
-<br />
+This app is a book discovery platform. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project section on our app.
 
-## What It Does
+## Where does it become useful?
 
-Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project.
-
-Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books.
+Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books. On Tsundoku, enjoy a delicious experience with no clutter.
 <div>
 <img width="90%" src="https://i.imgur.com/ThUYy0W.png" alt="Gif of our app">
 </div>
-<hr />
 
-## Inspiration
+<br />
+
+# Inspiration
 
 We approached this idea for our indivual appreciation to discover new books, and our lifelong desire to learn new things.
 
@@ -73,19 +69,21 @@ We approached this idea for our indivual appreciation to discover new books, and
 <br />
 This experience aligns with our personal ambitions as software engineers, front and backend engineers, and UI/UX engineers. We want to make reading books sexy again through creative web design.
 
-
-<hr />
-<br />
-
-## How We Built It
+# How We Built It
 
 This project was conceptualized by building wireframes and prototypes using Figma. We then built our project over 2 weeks. We used React and Redux, React Native and Tailwind CSS.
 
+# Getting Started
+
+1.  Register and retrieve API token from [The New York Times Books API](https://developer.nytimes.com/docs/books-product/1/overview)
+2.  Set up credentials for [Google Books API](https://developers.google.com/books) and retrieve API token
+3.  Implement dotenv with corresponding environmental variables
+4.  <code> yarn install </code>
+5.  <code> yarn start </code>
+
 <br />
 
-
-## Accomplishments
-
+# Accomplishments
 
 - App decision was mutual among everyone.
 - Implement Redux into our project.
@@ -94,32 +92,26 @@ This project was conceptualized by building wireframes and prototypes using Figm
 - Overall team synergy and cooperation.
 - All the awesome work we collectively invested.
 
-<br />
+# What We Learned
 
-## What We Learned
+We learned the following:
 
-We learned the following very quickly:
+- Accessing & Navigating Google Books API
+- Grid system Tailwind CSS
 
-- Accessing & Navigating Google API
-- Tailwind.CSS
-  
-<br />
-
-## Plans
-
+# Plans
 
 We are looking foward to many new opportunities in the near future, including:
 
-- Collaborating on user authentication.
+- Working on implementing on user authentication for registration.
+- Collaborating with book stores and libraries.
 - Gathering New York Public Library data to familiarize New Yorkers with libraries.
 - Give literary events more exposure.
 - Implement Firebase for backend storage.
-<br />
 <!-- BUILT WITH -->
 <br />
 
 ## Built With:
-
 
 <!-- - [Redux](https://redux.js.org/)
 - [ReactJS](https://reactjs.org)
