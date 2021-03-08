@@ -55,7 +55,7 @@ Books are here to stay.   <br />
 
 # What It Does
 
-Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project.
+Tsnundoku is a book search app. Check out which books are trending and search for new titles. Also, see our READ MORE BOOKS project on our app.
 
 Heading to the bookstore? Not sure what to buy? Pull up Tsundoku on your phone. Searching is easy, with reliable results provided by Google Books massive database for books.
 <div>
