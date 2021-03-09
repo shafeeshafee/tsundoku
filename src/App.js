@@ -1,22 +1,16 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Redirect, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
 import ErrorPage from "./Pages/ErrorPage";
 import BestSellers from "./Pages/BestSellers";
 import SearchBooks from "./Pages/SearchBooks";
+import Navbar from "./Components/Navbar";
 
 function App() {
 	return (
 		<Router>
-			<nav>
-				<div>
-				<NavLink to="/">Home</NavLink>
-				<NavLink to="/bestsellers">Best Sellers</NavLink>
-				<NavLink to="/aboutus">About Us</NavLink>
-				<NavLink to="/search">Search</NavLink>
-				</div>
-			</nav>
+			<Navbar />
 			<Switch>
 				<Route exact path="/">
 					<HomePage />
@@ -32,8 +26,8 @@ function App() {
 				</Route>
 				<Redirect to="/" component={ErrorPage} />
 			</Switch>
-    	</Router>
-	)
+		</Router>
+	);
 }
 
 export default App;
