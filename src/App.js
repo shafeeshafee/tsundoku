@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-d
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
 import ErrorPage from "./Pages/ErrorPage";
-import BestSellers from "./Pages/BestSellers";
+import BestSellersPage from "./Pages/BestSellersPage.jsx"
 import SearchBooks from "./Pages/SearchBooks";
 import Navbar from "./Components/Navbar";
 import Definition from "./Pages/Definition";
@@ -17,7 +17,7 @@ function App() {
 					<HomePage />
 				</Route>
 				<Route exact path="/bestsellers">
-					<BestSellers />
+					<BestSellersPage />
 				</Route>
 				<Route exact path="/aboutus">
 					<AboutUs />
