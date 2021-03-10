@@ -2,11 +2,10 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
-import ErrorPage from "./Pages/ErrorPage";
+import ErrorPage from "./Pages/ErrorPage.jsx";
 import BestSellersPage from "./Pages/BestSellersPage.jsx"
-import SearchBooks from "./Pages/SearchBooks";
+import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
 import Navbar from "./Components/Navbar";
-import Definition from "./Pages/Definition";
 
 function App() {
 	return (
@@ -23,7 +22,7 @@ function App() {
 					<AboutUs />
 				</Route>
 				<Route exact path="/search">
-					<SearchBooks />
+					<SearchBooksPage />
 				</Route>
 				<Redirect to="/" component={ErrorPage} />
 			</Switch>

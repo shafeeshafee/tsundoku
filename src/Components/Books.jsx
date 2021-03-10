@@ -1,6 +1,5 @@
-// books
+const Books = () => {
 
-function Books() {
   return (
     <div>
       <h1>Books</h1>

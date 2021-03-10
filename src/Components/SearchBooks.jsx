@@ -1,9 +1,9 @@
-// search books
-
 function SearchBooks() {
   return (
     <div>
-      <h2>Results</h2>
+      <h1>Search</h1>
+      <input type="text" />
+      <button>Search</button>
     </div>
   );
 }
