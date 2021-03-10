@@ -15,7 +15,6 @@ function App() {
 			<Switch>
 				<Route exact path="/">
 					<HomePage />
-					<Definition />
 				</Route>
 				<Route exact path="/bestsellers">
 					<BestSellers />
