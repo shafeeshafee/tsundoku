@@ -6,6 +6,7 @@ import ErrorPage from "./Pages/ErrorPage";
 import BestSellersPage from "./Pages/BestSellersPage.jsx"
 import SearchBooks from "./Pages/SearchBooks";
 import Navbar from "./Components/Navbar";
+import Definition from "./Pages/Definition";
 
 function App() {
 	return (
