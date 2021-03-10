@@ -1,3 +1,5 @@
+import Definition from "./Definition";
+
 const HomePage = () => {
 	return (
 		<div>
