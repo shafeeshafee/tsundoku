@@ -6,6 +6,7 @@ import ErrorPage from "./Pages/ErrorPage";
 import BestSellers from "./Pages/BestSellers";
 import SearchBooks from "./Pages/SearchBooks";
 import Navbar from "./Components/Navbar";
+import Definition from "./Pages/Definition";
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<Switch>
 				<Route exact path="/">
 					<HomePage />
+					<Definition />
 				</Route>
 				<Route exact path="/bestsellers">
 					<BestSellers />
