@@ -1,4 +1,4 @@
-// import fetchBooksApi from "../services/fetchBooksAPI"
+import fetchBooksApi from "../Services/GoogleBooksAPI"
 
 export const GET_BOOKS = "GET_BOOKS";
 export const GET_BOOKS_SUCCESS = "GET_BOOKS_SUCCESS";
@@ -17,12 +17,12 @@ export const getBooksFailure = () => ({
     type: GET_BOOKS_FAILURE
 })
 
-export function fetchBooks() {
+export function fetchBooks(q) {
     return async (dispatch) => {
         dispatch(getBooks())
         try{
-            // const res = await fetchBooksApi();
-            // dispatch(getBooksSuccess(res))
+            const res = await fetchBooksApi(q);
+            dispatch(getBooksSuccess(res))
         }
         catch(e) {
             dispatch(getBooksFailure())
