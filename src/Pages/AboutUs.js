@@ -1,7 +1,8 @@
 // about us
+
 function AboutUs() {
 	return (
-		<div className="my-20 font-headings">
+		<div className="pt-20 font-headings bg-offwhite">
 			<h1 className="flex text-3xl float-right pr-5">team's favorite reads</h1>
 			<br />
 			<ul className="my-20 flex flex-wrap items-center justify-around text-center">
