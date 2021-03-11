@@ -16,7 +16,7 @@ const QuotePanel = () => {
 	}, []);
 
 	return (
-		<ScrollAnimation animateIn="fadeIn">
+		<ScrollAnimation animateIn="fadeIn" duration={2}>
 			<div className="h-screen flex justify-between">
 				<div className="hidden lg:block bg-man-library bg-cover bg-no-repeat w-1/2 h-full"></div>
 				<div className="w-screen lg:w-1/2 bg-offwhite center-content text-dark">
