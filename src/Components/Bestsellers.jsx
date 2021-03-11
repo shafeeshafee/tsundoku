@@ -1,23 +1,20 @@
-const BestSellers = ({bestsellerslist}) => {
+import BestSellerSingle from "./BestSellerSingle";
 
-    const {books} = bestsellerslist;
-    console.log(books)
+const BestSellers = ({ bestsellerslist }) => {
+	const { books } = bestsellerslist;
 
-    return (
-        <div>
-            <h1>Best Sellers</h1>
-            <ul>{books?.map(el => {
-                return (
-                <li key={el.primary_isbn10}>
-                    <p>{el.title}</p>
-                    <img src={el.book_image} alt="book cover"/>
-                </li>
-                )
-            })}
-            </ul>
-        </div>
-    )
+	console.log(books);
 
-}
+	return (
+		<div className="bg-offwhite font-headings pb-20">
+			<h1 className="text-center pt-10 text-2xl uppercase font-bold">TRENDING FICTION</h1>
+			<ul className="px-20 pt-10 grid-flow-row grid grid-cols-1 gap-20 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+				{books?.map((el) => {
+					return <BestSellerSingle {...el} />;
+				})}
+			</ul>
+		</div>
+	);
+};
 
 export default BestSellers;
