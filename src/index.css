@@ -12,3 +12,8 @@
 .leading {
 	line-height: -2em;
 }
+
+.animate__animated.animate__fadeIn,
+.animate__animated.animate__fadeInDown {
+	--animate-duration: 2s;
+}

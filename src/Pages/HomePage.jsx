@@ -1,3 +1,4 @@
+import QuotePanel from "../Components/QuotePanel";
 import Definition from "./Definition";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
 				<p className="mt-3 text-base lg:text-3xl">read more books</p>
 			</div>
 			<Definition />
+			<QuotePanel />
 		</div>
 	);
 };
