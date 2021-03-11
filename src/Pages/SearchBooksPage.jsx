@@ -24,7 +24,7 @@ const SearchBooksPage = () => {
 	};
 
 	return (
-		<div className="bg-offwhite flex flex-col font-headings">
+		<div className="bg-offwhite flex flex-col font-headings h-screen">
 			<SearchBooks />
 
 			<SearchResults bookslist={renderBooks()} />
