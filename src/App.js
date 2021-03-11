@@ -1,4 +1,5 @@
 import "./App.css";
+
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
@@ -26,6 +27,7 @@ function App() {
 				</Route>
 				<Redirect to="/" component={ErrorPage} />
 			</Switch>
+    <Footer />
 		</Router>
 	);
 }
