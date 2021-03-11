@@ -4,9 +4,10 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-d
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
 import ErrorPage from "./Pages/ErrorPage.jsx";
-import BestSellersPage from "./Pages/BestSellersPage.jsx"
+import BestSellersPage from "./Pages/BestSellersPage.jsx";
 import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 function App() {
 	return (
@@ -27,7 +28,7 @@ function App() {
 				</Route>
 				<Redirect to="/" component={ErrorPage} />
 			</Switch>
-    <Footer />
+			<Footer />
 		</Router>
 	);
 }
