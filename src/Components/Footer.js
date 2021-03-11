@@ -1,9 +1,9 @@
-// import { Link } from "react-router-dom";
+// {import } from "react-router-dom";
 
 function Footer() {
   return (
-    <div>
-      <footer className=" flex justify-center font-headings bg-black text-white sm:mt-10 pt-10 grid gap-4 grid-cols-3">
+    <div class="class=min-h-screen flex flex-col font-sans">
+      <footer className=" flex justify-center font-headings bg-black text-white sm:mt-10 pt-6 grid gap-4 grid-cols-3 ">
         <div className="max-w-6xl m-auto flex flex-wrap justify-left">
           <ul>
             <li>Our Favorite</li>
