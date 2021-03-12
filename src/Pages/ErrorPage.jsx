@@ -9,9 +9,7 @@ function ErrorPage() {
     >
       <ul className="pt-15">
         <li>
-          <h1 className=" md:flex md:justify-center mb-6 text-7xl pt-12">
-            404
-          </h1>
+          <h1 className="md:flex md:justify-center mb-6 text-7xl pt-12">404</h1>
         </li>
         <li>
           <h2 className="text-5xl p-10">Page Not Found</h2>
