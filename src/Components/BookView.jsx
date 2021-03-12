@@ -44,6 +44,7 @@ const BookView = (props) => {
 
 									<p className="page__content-credits">
 										A PROJECT by
+										<span>Jahaziel Israel</span>
 										<span>Shan Siddiqui</span>
 										<span>Diana Gaona</span>
 										<span>Shafee Ahmed</span>
