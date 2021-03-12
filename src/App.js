@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/search">
           <SearchBooksPage />
         </Route>
-        <Redirect to="/" component={ErrorPage} />
+        <Route to="/" component={ErrorPage} />
       </Switch>
       <Footer />
     </Router>

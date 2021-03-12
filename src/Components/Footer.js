@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="h-full">
-      <footer className="flex flex-wrap justify-between font-headings bg-dark text-white p-24">
+      <footer className="flex flex-wrap justify-between font-headings bg-dark text-white p-21">
         {/* <div className="max-w-6xl m-auto flex flex-wrap"> */}
         <div className="flex flex-wrap justify-between w-screen items-center">
           <div>
