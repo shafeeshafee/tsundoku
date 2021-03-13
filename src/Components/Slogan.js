@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Slogan = () => {
 	return (
-		<div className="w-screen bg-white h-screen flex justify-center items-center text-base lg:text-4xl font-headings">
+		<div className="bg-white flex justify-center py-10 xl:py-24 items-center text-base lg:text-4xl font-headings">
 			<div className="flex center-content">
 				<p>BOOKS ARE HERE TO STAY</p>
 				<p>BOOKS ARE HERE TO STAY</p>
