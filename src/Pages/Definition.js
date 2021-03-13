@@ -14,7 +14,7 @@ const Definition = () => {
 				{/* second panel */}
 				<div className="hidden lg:block bg-girl-library w-full"></div>
 				{/* third panel */}
-				<div className="w-full center-content font-bold text-2xl">
+				<div className="w-full center-content font-bold text-6xl leading-9 border-t-4 border-b-4">
 					<p>read more</p>
 					<p>read more</p>
 					<p>read more</p>
@@ -26,7 +26,7 @@ const Definition = () => {
 					<p>read more</p>
 					<p>read more</p>
 					<p>read more</p>
-					<p className="text-red-500">read more</p>
+					<p className="text-reddish z-30">read more</p>
 					<p>read more</p>
 					<p>read more</p>
 				</div>
