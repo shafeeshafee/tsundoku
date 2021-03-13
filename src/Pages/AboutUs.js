@@ -3,7 +3,7 @@ import TeamMember from "../Components/TeamMember";
 
 function AboutUs() {
 	return (
-		<ScrollAnimation duration={2} animateIn="fadeIn">
+		<ScrollAnimation duration={1} animateIn="fadeIn">
 			<div className="bg-offwhite flex flex-col">
 				<div className="py-20 font-headings">
 					<h1 className="flex justify-center bg-offwhite text-2xl font-headings font-bold uppercase">team's favorite reads</h1>
