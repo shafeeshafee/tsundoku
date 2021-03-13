@@ -21,7 +21,7 @@ function ErrorPage() {
         </li>
         <li>
           <Link to="/search">
-            <div className="md:flex md:justify-center mb-6 pt-5">
+            <div className="flex justify-center mb-6 pt-5">
               {" "}
               <img
                 className="w-8 h-8 "
