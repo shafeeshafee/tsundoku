@@ -9,7 +9,7 @@ function SearchResults({ bookslist }) {
 					return <SingleBook bookInfo={el} key={el.id} />;
 				})}
 				:
-				<div>
+				<div className="h-96">
 					<p>Quotes</p>
 				</div>
 			</div>
