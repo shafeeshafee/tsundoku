@@ -1,4 +1,4 @@
-function SearchBooks() {
+function SearchBooks(searchInput, handleChange) {
   return (
     <div className=" md:flex md:justify-center mb-6 bg-offwhite text-right pt-20">
       <button className="mr-4" type="submit">
@@ -9,7 +9,12 @@ function SearchBooks() {
         // className={"border-b-2 bg-offwhite md:w-full px-8"}
         type="text"
         placeholder="Title / Author / Topic"
+        value={searchInput}
+        onChange={handleChange} // onChange is an event firing a function
       />
+      <button className="mr-4" type="submit">
+        Search
+      </button>
     </div>
   );
 }
