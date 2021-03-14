@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
+import Mission from "./Pages/Mission";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import BestSellersPage from "./Pages/BestSellersPage.jsx";
 import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path="/aboutus">
           <AboutUs />
+        </Route>
+        <Route exact path="/mission">
+          <Mission />
         </Route>
         <Route exact path="/search">
           <SearchBooksPage />
