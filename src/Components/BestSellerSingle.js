@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
+import BookURLs from "./BookURLs";
 
 const BestSellerSingle = (props) => {
 	const [isFlipped, setIsFlipped] = useState(false);
@@ -10,19 +11,21 @@ const BestSellerSingle = (props) => {
 	};
 
 	return (
-		<div>
-			<ReactCardFlip isFlipped={isFlipped}>
-				<li onClick={handleClick} className="flex flex-col justify-between" key={props.primary_isbn10}>
-					<p className="w-auto flex flex-wrap text-base uppercase font-bold text-reddish">{props.title}</p>
-					<p>by {props.author}</p>
-					<img className="h-48 w-36" src={props.book_image} alt="book cover" />
-				</li>
+		<ReactCardFlip isFlipped={isFlipped}>
+			<li onClick={handleClick} className="flex flex-col justify-between cursor-pointer" key={props.primary_isbn10}>
+				<p className="w-full flex flex-wrap text-base uppercase font-bold text-reddish py-3">{props.title}</p>
 
-				<div onClick={handleClick} className="flex flex-col justify-evenly">
-					<h1>This is the back page.</h1>
+				<img className="h-52 w-36 shadowed" src={props.book_image} alt="book cover" />
+				<p className="pt-2">by {props.author}</p>
+			</li>
+
+			<div className="flex flex-col justify-evenly">
+				<div className="py-5">
+					<img onClick={handleClick} className="w-10 cursor-pointer" src="https://www.svgrepo.com/show/111215/back.svg" alt="" />
 				</div>
-			</ReactCardFlip>
-		</div>
+				<BookURLs url={props.buy_links[5].url} description={props.description} />
+			</div>
+		</ReactCardFlip>
 	);
 };
 

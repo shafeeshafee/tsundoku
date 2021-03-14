@@ -44,6 +44,7 @@ const SearchBooksPage = () => {
       <SearchResults bookslist={renderBooks()} />
     </div>
   );
+
 };
 
 export default SearchBooksPage;
