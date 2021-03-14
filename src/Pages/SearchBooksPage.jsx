@@ -5,46 +5,41 @@ import SearchBooks from "../Components/SearchBooks";
 import SearchResults from "../Components/SearchResults";
 
 const SearchBooksPage = () => {
-  const dispatch = useDispatch();
+	const dispatch = useDispatch();
 
-  const [searchInput, setSearchInput] = useState("");
+	const [searchInput, setSearchInput] = useState("");
 
-  const initialBooks = useSelector((state) => {
-    return state.books;
-  });
+	const initialBooks = useSelector((state) => {
+		return state.books;
+	});
 
-  const { books } = initialBooks;
-  const handleChange = (event) => {
-    setSearchInput(event.target.value);
-  };
+	const { books } = initialBooks;
+	const handleChange = (event) => {
+		setSearchInput(event.target.value);
+	};
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    dispatch(fetchBooks(searchInput));
-  };
+	const handleSubmit = (event) => {
+		event.preventDefault();
+		dispatch(fetchBooks(searchInput));
+	};
 
-  useEffect(() => {
-    dispatch(fetchBooks(searchInput));
-  }, [dispatch]);
+	useEffect(() => {
+		dispatch(fetchBooks(searchInput));
+	}, [dispatch]);
 
-  const renderBooks = () => {
-    if (books.loading) return <p> Loading BestSellers...</p>;
-    if (books.hasErrors) return <p>An error has occurred</p>;
-    return books.items;
-  };
+	const renderBooks = () => {
+		if (books.loading) return <p> Loading BestSellers...</p>;
+		if (books.hasErrors) return <p>An error has occurred</p>;
+		return books.items;
+	};
 
-  return (
-    <div className="bg-offwhite flex flex-col font-headings h-screen">
-      <SearchBooks
-        searchInput={searchInput}
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-      />
+	return (
+		<div className="bg-offwhite flex flex-col font-headings h-full">
+			<SearchBooks searchInput={searchInput} handleChange={handleChange} handleSubmit={handleSubmit} />
 
-      <SearchResults bookslist={renderBooks()} />
-    </div>
-  );
-
+			<SearchResults bookslist={renderBooks()} />
+		</div>
+	);
 };
 
 export default SearchBooksPage;

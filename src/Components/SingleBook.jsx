@@ -16,10 +16,18 @@ const SingleBook = ({ bookInfo }) => {
 	return (
 		<div className="flex flex-col justify-between">
 			<ReactCardFlip isFlipped={isFlipped}>
-				<div onClick={handleClick} className="flex flex-col justify-evenly cursor-pointer">
+				<div onClick={handleClick} className="flex flex-col justify-between cursor-pointer">
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
 					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
-					<img className="h-48 w-36" src={book.imageLinks.thumbnail} alt="book cover" />
+					<img
+						className="h-48 w-36"
+						src={
+							book.imageLinks?.thumbnail
+								? book.imageLinks.thumbnail
+								: "https://www.gollancz.co.uk/wp-content/uploads/2018/07/missingbook.png"
+						}
+						alt="book cover"
+					/>
 					{/* <button onClick={handleClick}>Flip Card</button> */}
 				</div>
 
