@@ -2,6 +2,7 @@ import BookView from "../Components/BookView";
 import QuotePanel from "../Components/QuotePanel";
 import Definition from "./Definition";
 import ScrollAnimation from "react-animate-on-scroll";
+import Slogan from "../Components/Slogan";
 
 const HomePage = () => {
 	return (
@@ -15,6 +16,7 @@ const HomePage = () => {
 			</div>
 			<Definition />
 			<QuotePanel />
+			<Slogan />
 		</div>
 	);
 };

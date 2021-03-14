@@ -1,46 +1,48 @@
 import ScrollAnimation from "react-animate-on-scroll";
+import TeamMember from "../Components/TeamMember";
 
 function AboutUs() {
 	return (
-		<ScrollAnimation duration={2} animateIn="fadeIn">
-			<div className="pt-20 font-headings bg-offwhite">
-				<h1 className="flex text-3xl float-right pr-5">team's favorite reads</h1>
-				<br />
-				<ul className="my-20 flex flex-wrap items-center justify-around text-center">
-					<li className="my-10 flex flex-col items-center">
-						<span className="text-3xl font-light">DIANA GAONA</span>
-						<br /> <span className="font-bold uppercase text-reddish">Kitchen</span> by Banana Yoshimoto
-						<a href="https://www.amazon.com/dp/B07KPWGBKV">
-							<img
-								className="mt-10 h-48 w-32"
-								src="https://images-na.ssl-images-amazon.com/images/I/71F85zXcMjL.jpg"
-								alt="kitchen banana yoshimoto"
-							/>
-						</a>
-					</li>
-					<li className="my-10 flex flex-col items-center">
-						<span className="text-3xl font-light">SHAFEE AHMED</span>
-						<br /> <span className="font-bold uppercase text-reddish">The Brothers Karamazov</span> by Fyodor Dostoyevsky
-						<a href="https://www.amazon.com/dp/0374528373/">
-							<img
-								className="mt-10 h-48 w-32"
-								src="https://images-na.ssl-images-amazon.com/images/I/8117HB7WbvL.jpg"
-								alt="the brothers karamazov"
-							/>
-						</a>
-					</li>
-					<li className="my-10 flex flex-col items-center">
-						<span className="text-3xl font-light">SHAN SIDDIQUI</span>
-						<br /> <span className="font-bold uppercase text-reddish">Guns, Germs, and Steel</span> by Jared Diamond
-						<a href="https://www.amazon.com/dp/B06X1CT33R/">
-							<img
-								className="mt-10 h-48 w-32 m-auto"
-								src="https://images-na.ssl-images-amazon.com/images/I/51LVx6UrW5L._SX326_BO1,204,203,200_.jpg"
-								alt="guns germs and steel"
-							/>
-						</a>
-					</li>
-				</ul>
+		<ScrollAnimation duration={1} animateIn="fadeIn">
+			<div className="bg-offwhite flex flex-col">
+				<div className="py-20 font-headings">
+					<h1 className="flex justify-center bg-offwhite text-2xl font-headings font-bold uppercase">team's favorite reads</h1>
+					<br />
+					<ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-20">
+						<TeamMember
+							name="Diana Gaona"
+							title="Kitchen"
+							author="Banana Yoshimoto"
+							image="https://prodimage.images-bn.com/pimages/9780802142443_p0_v1_s600x595.jpg"
+							alt="Kitchen by Banana Yoshimoto"
+							url="https://www.barnesandnoble.com/w/kitchen-yoshimoto/1101584261"
+						/>
+						<TeamMember
+							name="Shafee Ahmed"
+							title="The Brothers Karamazov"
+							author="Fyodor Dostoevsky"
+							image="https://prodimage.images-bn.com/pimages/9780140449242_p0_v2_s600x595.jpg"
+							alt="The Brothers Karamazov"
+							url="https://www.barnesandnoble.com/w/the-brothers-karamazov-fyodor-dostoevsky/1124439113"
+						/>
+						<TeamMember
+							name="Shan Siddiqui"
+							title="Guns, Germs, and Steel"
+							author="Jared Diamond"
+							image="https://prodimage.images-bn.com/pimages/9780393354324_p0_v3_s600x595.jpg"
+							alt="Guns, Germs, and Steel by Jared Diamond"
+							url="https://www.barnesandnoble.com/w/guns-germs-and-steel-jared-diamond/1100290895"
+						/>
+						<TeamMember
+							name="Jahaziel Israel"
+							title="Between the World and Me"
+							author="Ta-Nehisi Coates"
+							image="https://prodimage.images-bn.com/pimages/9780812993547_p0_v5_s600x595.jpg"
+							alt="Between the World and Me, by Ta-Nehisi Coates"
+							url="https://www.barnesandnoble.com/w/between-the-world-and-me-ta-nehisi-coates/1121816158"
+						/>
+					</ul>
+				</div>
 			</div>
 		</ScrollAnimation>
 	);

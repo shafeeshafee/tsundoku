@@ -5,7 +5,7 @@ import "../Css/BookView.css";
 const BookView = (props) => {
 	return (
 		<div className={`book-body absolute z-10 ${props.toggleShow} font-title`}>
-			<ScrollAnimation duration={2} animateIn="fadeIn">
+			<ScrollAnimation duration={2} animateOnce={true} animateIn="fadeIn">
 				<div className="cover">
 					<div className="book">
 						<label for="page-1" className="book__page book__page--1">
@@ -44,6 +44,7 @@ const BookView = (props) => {
 
 									<p className="page__content-credits">
 										A PROJECT by
+										<span>Jahaziel Israel</span>
 										<span>Shan Siddiqui</span>
 										<span>Diana Gaona</span>
 										<span>Shafee Ahmed</span>

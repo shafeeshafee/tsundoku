@@ -24,13 +24,12 @@ const SingleBook = ({ bookInfo }) => {
 				</div>
 
 				<div className="flex flex-col justify-evenly">
+					<div className="py-5">
+						<img onClick={handleClick} className="w-10 cursor-pointer" src="https://www.svgrepo.com/show/111215/back.svg" alt="" />
+					</div>
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
 					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
 					<h2>{book.subtitle ? book.subtitle : "This book does not have information"}</h2>
-					<div className="py-5">
-						<img onClick={handleClick} className="w-10 cursor-pointer" src="https://www.svgrepo.com/show/111215/back.svg" alt="" />
-						<button></button>
-					</div>
 				</div>
 			</ReactCardFlip>
 		</div>
