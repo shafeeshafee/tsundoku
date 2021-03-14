@@ -5,35 +5,46 @@ import SearchBooks from "../Components/SearchBooks";
 import SearchResults from "../Components/SearchResults";
 
 const SearchBooksPage = () => {
-	const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
-	const [searchInput, setSearchInput] = useState("");
+  const [searchInput, setSearchInput] = useState("");
 
-	const initialBooks = useSelector((state) => {
-		return state.books;
-	});
+  const initialBooks = useSelector((state) => {
+    return state.books;
+  });
 
-	const { books } = initialBooks;
-	const handleChange = (event) => {
-		setSearchInput(event.target.value);
-	};
-	useEffect(() => {
-		dispatch(fetchBooks("cat"));
-	}, [dispatch]);
+  const { books } = initialBooks;
+  const handleChange = (event) => {
+    setSearchInput(event.target.value);
+  };
 
-	const renderBooks = () => {
-		if (books.loading) return <p> Loading BestSellers...</p>;
-		if (books.hasErrors) return <p>An error has occurred</p>;
-		return books.items;
-	};
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    dispatch(fetchBooks(searchInput));
+  };
 
-	return (
-		<div className="bg-offwhite flex flex-col font-headings h-screen">
-			<SearchBooks searchInput={searchInput} handleChange={handleChange} />
+  useEffect(() => {
+    dispatch(fetchBooks(searchInput));
+  }, [dispatch]);
 
-			<SearchResults bookslist={renderBooks()} />
-		</div>
-	);
+  const renderBooks = () => {
+    if (books.loading) return <p> Loading BestSellers...</p>;
+    if (books.hasErrors) return <p>An error has occurred</p>;
+    return books.items;
+  };
+
+  return (
+    <div className="bg-offwhite flex flex-col font-headings h-screen">
+      <SearchBooks
+        searchInput={searchInput}
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
+      />
+
+      <SearchResults bookslist={renderBooks()} />
+    </div>
+  );
+
 };
 
 export default SearchBooksPage;
