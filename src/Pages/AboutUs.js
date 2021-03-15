@@ -16,7 +16,7 @@ function AboutUs() {
 							image="https://prodimage.images-bn.com/pimages/9780802142443_p0_v1_s600x595.jpg"
 							alt="Kitchen by Banana Yoshimoto"
 							url="https://www.barnesandnoble.com/w/kitchen-yoshimoto/1101584261"
-							bio="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, inventore. Autem alias iure error, voluptates ipsum nobis id dolorem repudiandae, ad minima libero? Debitis ipsam fugit quis corporis libero mollitia!"
+							bio="Diana is an avid reader who devours books for breakfast, lunch and dinner."
 							github="https://github.com/dianacg93"
 							linkedin="https://www.linkedin.com/in/dianacgaona/"
 						/>
