@@ -16,7 +16,7 @@ function AboutUs() {
 							image="https://prodimage.images-bn.com/pimages/9780802142443_p0_v1_s600x595.jpg"
 							alt="Kitchen by Banana Yoshimoto"
 							url="https://www.barnesandnoble.com/w/kitchen-yoshimoto/1101584261"
-							bio="Diana is an avid reader who devours books for breakfast, lunch and dinner."
+							bio="Hello fellow readers! My name is Diana. Growing up reading books in Spanish and eventually transitioning to reading books in English, literature has been and continues to be a past time that allows me to see into other people's minds and learn many lessons I may have not learned in my day-to-day routine. As I have grown older, I have seen my favorite genre change many times, and at the moment I find myself reading self-help and business books."
 							github="https://github.com/dianacg93"
 							linkedin="https://www.linkedin.com/in/dianacgaona/"
 						/>
