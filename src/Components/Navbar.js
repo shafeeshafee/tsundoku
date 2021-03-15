@@ -1,14 +1,13 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Navbar = ({ toggle, totalItems }) => {
+const Navbar = ({ toggle }) => {
 	return (
 		<nav
 			className="font-headings bg-offwhite z-40 top-0 flex justify-between items-center h-16 text-black shadow-sm header-font "
 			role="navigation"
 		>
-			<Link to="/" className="flex items-center pl-8">
-				<img alt="" className="h-10 mx-2 " />
-				tsundoku
+			<Link to="/" className="flex items-center pl-8 text-lg">
+				<strong>tsundoku</strong>
 			</Link>
 			<div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
 				<svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

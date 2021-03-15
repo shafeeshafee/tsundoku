@@ -23,7 +23,7 @@ const TeamMember = ({ name, title, author, image, alt, url, bio, github, linkedi
 						</span>
 						<br />
 						<span className="font-bold uppercase text-reddish">{title}</span> by {author}
-						<a className="z-30" href={url} target="_blank">
+						<a className="z-30" href={url} target="_blank" rel="noreferrer">
 							<img className="mt-10 h-48 w-32" src={image} alt={alt} />
 						</a>
 					</div>
@@ -31,10 +31,10 @@ const TeamMember = ({ name, title, author, image, alt, url, bio, github, linkedi
 						<img onClick={handleClick} className="w-10 cursor-pointer" src={backArrow} alt="" />
 						<h1 className="p-10 text-justify">{bio}</h1>
 						<div className="flex justify-evenly items-center">
-							<a href={github} target="_blank">
+							<a href={github} target="_blank" rel="noreferrer">
 								<img className="w-6 h-6" src={githubIcon} alt="github" />
 							</a>
-							<a href={linkedin} target="_blank">
+							<a href={linkedin} target="_blank" rel="noreferrer">
 								<img className="w-6 h-6" src={linkedInIcon} alt="linkedin" />
 							</a>
 						</div>
