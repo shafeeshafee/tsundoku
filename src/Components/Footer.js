@@ -1,16 +1,20 @@
 import { Link } from "react-router-dom";
 
+import mediumIcon from "../Images/icons/medium-icon.png";
+import nyplIcon from "../Images/icons/nypl-icon.png";
+import bookstoreIcon from "../Images/icons/bookstore-icon.png";
+
 function Footer() {
 	return (
 		<div className="h-full">
-			<footer className="flex flex-wrap justify-between font-headings bg-dark text-white text-lg p-21 py-24">
+			<footer className="flex flex-wrap justify-between font-headings bg-dark text-white text-lg py-24">
 				<div className="flex flex-wrap justify-evenly w-screen items-center">
 					<div>
 						<ul className="py-4 px-10">
 							<Link to="/aboutus">
-								<li>Our Favorite</li>
+								<li>Our Favorite Books</li>
 							</Link>
-							<Link to="/">
+							<Link to="/mission">
 								<li>Why Books</li>
 							</Link>
 							<Link to="/aboutus">
@@ -20,39 +24,39 @@ function Footer() {
 					</div>
 					<div>
 						<ul className="py-4 px-10">
-							<Link to="/aboutus">
-								<li>Team</li>
-							</Link>
-							<Link to="/">
-								<li>Save Libraries</li>
-							</Link>
+							<a href="https://nypl.overdrive.com/">
+								<li>NYPL Overdrive</li>
+							</a>
+							<a href="https://www.gutenberg.org/">
+								<li>Gutenberg</li>
+							</a>
 							<a href="https://www.strandbooks.com/">
-								<li>Strand</li>
+								<li>Strand Bookstore</li>
 							</a>
 						</ul>
 					</div>
 					<div className="flex justify-between">
-						<ul className="py-4 px-10">
-							<Link to="/">
+						<ul className="py-4 px-10 flex justify-evenly items-center">
+							<a href="https://kwikbrain.medium.com/the-neurology-of-reading-fb4e29efa2b5">
 								<li>
-									<img className="w-7 h-7 my-2" src="https://www.svgrepo.com/show/306392/medium.svg" alt="medium" />
+									<img className="w-9 h-auto m-3" src={mediumIcon} alt="medium" />
 								</li>
-							</Link>
-							<Link to="/">
+							</a>
+							<a href="https://www.nypl.org/locations">
 								<li>
-									<img className="w-7 h-7 my-2" src="https://www.svgrepo.com/show/4675/instagram.svg" alt="insta" />
+									<img className="w-7 h-auto m-3" src={nyplIcon} alt="NYPL" />
 								</li>
-							</Link>
-							<Link to="/">
+							</a>
+							<a href="http://westsiderbooks.com/bookstore.html">
 								<li>
-									<img src="https://www.svgrepo.com/show/11296/twitter.svg" alt="twitter" />
+									<img className="w-7 h-auto m-3" src={bookstoreIcon} alt="bookstore" />
 								</li>
-							</Link>
+							</a>
 						</ul>
 					</div>
 
 					<p className="flex border-t border-gray-500 text-white-200 text-sm flex-col">
-						&copy;{new Date().getFullYear()} Tsundoku | All Rights Reserved | Terms Of Service | Privacy
+						&copy; {new Date().getFullYear()} Tsundoku | All Rights Reserved | Terms Of Service | Privacy
 					</p>
 				</div>
 			</footer>
