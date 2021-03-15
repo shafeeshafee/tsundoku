@@ -9,7 +9,7 @@ function SearchBooks({ searchInput, handleChange, handleSubmit }) {
 				value={searchInput}
 				onChange={handleChange}
 			/>
-			<button onClick={handleSubmit} className="mr-4" type="submit">
+			<button onClick={handleSubmit} className="ml-4" type="submit">
 				Search
 			</button>
 		</div>

@@ -90,6 +90,11 @@ const BookView = (props) => {
 											<td align="left">East Village Books</td>
 											<td align="right">173</td>
 										</tr>
+										<tr>
+											<td align="left">Part VI</td>
+											<td align="left">Westsider Books</td>
+											<td align="right">190</td>
+										</tr>
 									</table>
 
 									<div className="page__number">2</div>
