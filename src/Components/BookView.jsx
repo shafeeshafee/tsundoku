@@ -44,10 +44,10 @@ const BookView = (props) => {
 
 									<p className="page__content-credits">
 										A PROJECT by
-										<span>Jahaziel Israel</span>
+										<span>Shafee Ahmed</span>
 										<span>Shan Siddiqui</span>
 										<span>Diana Gaona</span>
-										<span>Shafee Ahmed</span>
+										<span>Jahaziel Israel</span>
 									</p>
 
 									<p className="page__content-credits">
@@ -92,8 +92,18 @@ const BookView = (props) => {
 										</tr>
 										<tr>
 											<td align="left">Part VI</td>
-											<td align="left">Westsider Books</td>
-											<td align="right">190</td>
+											<td align="left">Cafe Con Libros</td>
+											<td align="right">192</td>
+										</tr>
+										<tr>
+											<td align="left">Part VII</td>
+											<td align="left">The Lit. Bar</td>
+											<td align="right">222</td>
+										</tr>
+										<tr>
+											<td align="left">Part VIII</td>
+											<td align="left">Boogie Down Books</td>
+											<td align="right">247</td>
 										</tr>
 									</table>
 
