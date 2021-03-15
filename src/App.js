@@ -10,6 +10,7 @@ import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
+import Mission from './Pages/Mission';
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
