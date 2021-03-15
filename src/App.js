@@ -7,7 +7,6 @@ import AboutUs from "./Pages/AboutUs";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import BestSellersPage from "./Pages/BestSellersPage.jsx";
 import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
-import Mission from "./Pages/Mission";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
