@@ -4,13 +4,13 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
-import Mission from "./Pages/Mission";
 import ErrorPage from "./Pages/ErrorPage.jsx";
 import BestSellersPage from "./Pages/BestSellersPage.jsx";
 import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
+import Mission from './Pages/Mission';
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);

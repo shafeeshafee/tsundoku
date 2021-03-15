@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import BookURLs from "./BookURLs";
 
+import backArrow from "../Images/icons/backarrow.svg";
+
 const BestSellerSingle = (props) => {
 	const [isFlipped, setIsFlipped] = useState(false);
 
@@ -21,7 +23,7 @@ const BestSellerSingle = (props) => {
 
 			<div className="flex flex-col justify-evenly">
 				<div className="py-5">
-					<img onClick={handleClick} className="w-10 cursor-pointer" src="https://www.svgrepo.com/show/111215/back.svg" alt="" />
+					<img onClick={handleClick} className="w-10 cursor-pointer" src={backArrow} alt="" />
 				</div>
 				<BookURLs url={props.buy_links[5].url} description={props.description} />
 			</div>

@@ -17,8 +17,14 @@ const SearchBooksPage = () => {
 	const handleChange = (event) => {
 		setSearchInput(event.target.value);
 	};
+
+	const handleSubmit = (event) => {
+		event.preventDefault();
+		dispatch(fetchBooks(searchInput));
+	};
+
 	useEffect(() => {
-		dispatch(fetchBooks("cat"));
+		dispatch(fetchBooks(searchInput));
 	}, [dispatch]);
 
 	const renderBooks = () => {
@@ -28,8 +34,8 @@ const SearchBooksPage = () => {
 	};
 
 	return (
-		<div className="bg-offwhite flex flex-col font-headings h-screen">
-			<SearchBooks searchInput={searchInput} handleChange={handleChange} />
+		<div className="bg-offwhite flex flex-col font-headings h-full">
+			<SearchBooks searchInput={searchInput} handleChange={handleChange} handleSubmit={handleSubmit} />
 
 			<SearchResults bookslist={renderBooks()} />
 		</div>
