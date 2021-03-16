@@ -63,7 +63,7 @@ function Footer() {
             </ul>
           </div>
 
-          <p className="flex border-t border-gray-500 text-white-200 pr-8 pl-8 text-xs flex-col flex items-baseline md:items-center">
+          <p className="flex border-t border-gray-500 text-white-200 pr-8 pl-8 pt-2 text-xs flex-col flex items-baseline md:items-center">
             &copy; {new Date().getFullYear()} Tsundoku | All Rights Reserved |
             Terms Of Service | Privacy
           </p>
