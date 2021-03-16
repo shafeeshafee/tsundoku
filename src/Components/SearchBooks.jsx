@@ -11,7 +11,7 @@ function SearchBooks({ searchInput, handleChange, handleSubmit }) {
 				onChange={handleChange}
 			/>
 			<button onClick={handleSubmit} className="ml-4" type="submit">
-				<img className="w-10 h-10" src={bookSrch} />
+				<img className="w-10 h-10" src={bookSrch} alt="book search icon" />
 			</button>
 		</div>
 	);

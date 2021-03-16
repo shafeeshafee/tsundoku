@@ -6,7 +6,10 @@ const Dropdown = ({ isOpen, toggle }) => {
 	// width: 100%;
 	// z-index: 999;
 	return (
-		<div className={isOpen ? "grid grid-rows-4 w-full z-999 text-center items-center bg-dark text-white" : "hidden"} onClick={toggle}>
+		<div
+			className={isOpen ? "grid grid-rows-2 w-full z-50 text-center items-center antialiased bg-darker text-white fixed" : "hidden"}
+			onClick={toggle}
+		>
 			<Link className="py-4" to="/">
 				home
 			</Link>

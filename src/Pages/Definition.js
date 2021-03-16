@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ScrollAnimation from "react-animate-on-scroll";
 const Definition = () => {
 	return (
@@ -8,7 +9,28 @@ const Definition = () => {
 					{/* first panel */}
 					<div className="w-3/4 m-auto flex flex-col justify-around">
 						<h1 className="font-bold text-base lg:text-4xl mb-10">tsundoku (n.) - 積ん読</h1>
-						<p className="font-light text-base lg:text-4xl">the act of acquiring books that then pile up, often unread, in one's home</p>
+						<p className="font-light text-base lg:text-4xl">
+							buying books and not reading them; letting books pile up unread on shelves or floors or nightstands
+						</p>
+						<div className="font-light text-sm lg:text-md py-10">
+							<ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={1}>
+								here's why that may{" "}
+								<a className="text-blue-400" href="https://www.brainpickings.org/2015/03/24/umberto-eco-antilibrary/">
+									not be a bad thing
+								</a>
+								.
+							</ScrollAnimation>
+							<br />
+							<ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1}>
+								<p className="py-3">
+									read more about it in our{" "}
+									<Link className="text-blue-400" to="/missions">
+										missions page
+									</Link>
+									.
+								</p>
+							</ScrollAnimation>
+						</div>
 					</div>
 				</div>
 				{/* second panel */}

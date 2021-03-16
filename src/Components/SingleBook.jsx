@@ -17,7 +17,7 @@ const SingleBook = ({ bookInfo }) => {
 	console.log(book);
 
 	return (
-		<div className="flex flex-col justify-between">
+		<div className="flex flex-col justify-between h-full">
 			<ReactCardFlip isFlipped={isFlipped}>
 				<div onClick={handleClick} className="flex flex-col justify-between cursor-pointer">
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
