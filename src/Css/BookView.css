@@ -156,7 +156,6 @@
 	/* font-family: var(--title); */
 	display: flex;
 	font-size: 0.9em;
-	font-style: italic;
 	text-align: justify;
 }
 .book__page .page__content-blockquote-reference {

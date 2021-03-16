@@ -6,7 +6,7 @@ import bookstoreIcon from "../Images/icons/bookstore-icon.png";
 
 function Footer() {
 	return (
-		<div className="h-full">
+		<div className="h-full static">
 			<footer className="flex flex-wrap justify-between font-headings bg-dark text-white text-lg py-24">
 				<div className="flex flex-wrap justify-evenly w-screen items-center">
 					<div>

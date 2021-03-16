@@ -1,9 +1,38 @@
+import { useState, useCallback, useEffect } from "react";
+
 import { Link } from "react-router-dom";
 
 const Navbar = ({ toggle }) => {
+	const [y, setY] = useState(window.scrollY);
+	const [dropShadow, setDropShadow] = useState("");
+
+	const handleNavigation = useCallback(
+		(e) => {
+			const window = e.currentTarget;
+			if (y > window.scrollY) {
+				console.log("scrolling up");
+				setDropShadow("shadow");
+			} else if (y < window.scrollY || y === window.scrollY) {
+				console.log("scrolling down");
+				setDropShadow("shadow-2xl");
+			}
+			setY(window.scrollY);
+		},
+		[y]
+	);
+
+	useEffect(() => {
+		setY(window.scrollY);
+		window.addEventListener("scroll", handleNavigation);
+
+		return () => {
+			window.removeEventListener("scroll", handleNavigation);
+		};
+	}, [handleNavigation]);
+
 	return (
 		<nav
-			className="font-headings bg-offwhite z-40 top-0 flex justify-between items-center h-16 text-black shadow-sm header-font "
+			className={`font-headings sticky bg-white z-40 top-0 flex justify-between items-center h-16 text-black shadow-sm header-font transition duration-1000 ease-in-out ${dropShadow}`}
 			role="navigation"
 		>
 			<Link to="/" className="flex items-center pl-8 text-lg">

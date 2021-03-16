@@ -2,14 +2,16 @@ import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
 import "../Css/BookView.css";
 
+import fireplace from "../Images/fireplace.jpg";
+
 const BookView = (props) => {
 	return (
 		<div className={`book-body absolute z-10 ${props.toggleShow} font-title`}>
-			<ScrollAnimation duration={2} animateOnce={true} animateIn="fadeIn">
+			<ScrollAnimation duration={2} animateOnce={true} animateIn="fadeInUp">
 				<div className="cover">
 					<div className="book">
 						<label for="page-1" className="book__page book__page--1">
-							<img src="https://i.imgur.com/VzDAnR0.jpg" alt="" />
+							<img src={fireplace} alt="" />
 						</label>
 
 						<label for="page-2" className="book__page book__page--4">
