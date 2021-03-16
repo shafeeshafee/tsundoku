@@ -12,7 +12,7 @@ const HomePage = () => {
 					<h1 className="text-3xl sm:text-5xl lg:text-9xl font-title block lg:hidden">tsundoku</h1>
 				</ScrollAnimation>
 				<BookView toggleShow="hidden lg:block" />
-				<p className="mt-3 text-base lg:text-3xl block lg:hidden">read more books</p>
+				<p className="mt-3 text-base lg:text-3xl block lg:hidden">books are here to stay</p>
 			</div>
 			<Definition />
 			<QuotePanel />

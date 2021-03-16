@@ -6,7 +6,7 @@ import bookstoreIcon from "../Images/icons/bookstore-icon.png";
 
 function Footer() {
   return (
-    <div className="h-full">
+    <div className="h-full static">
       <footer className="flex flex-wrap justify-between font-headings bg-dark text-white text-lg py-24">
         <div className="flex flex-wrap justify-evenly w-screen items-center">
           <div>
@@ -62,7 +62,6 @@ function Footer() {
               </a>
             </ul>
           </div>
-
           <p className="flex border-t border-gray-500 text-white-200 pr-8 pl-8 pt-2 text-xs flex-col flex items-baseline md:items-center">
             &copy; {new Date().getFullYear()} Tsundoku | All Rights Reserved |
             Terms Of Service | Privacy

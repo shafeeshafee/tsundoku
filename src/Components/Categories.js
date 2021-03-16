@@ -37,9 +37,9 @@ const Categories = () => {
 							const selectedTopic = e.target.value;
 							setTopic(selectedTopic);
 						}}
-						className="text-center mt-20 bg-gray-300 text-dark font-headings border-2 outline-none border-none p-3 w-full lg:w-1/2 xl:w-1/4 cursor-pointer text-xl shadowed"
+						className="text-center mt-20 bg-gray-300 text-dark font-headings border-2 outline-none border-none mx-5 p-3 w-full lg:w-1/2 xl:w-1/4 cursor-pointer text-lg shadowed"
 					>
-						<option className="text-base bg-dark text-white" value="">
+						<option selected="selected" disabled hidden>
 							See all bestseller topics
 						</option>
 						{categories.map((entry, index) => {

@@ -18,8 +18,8 @@ const Slogan = () => {
 				<p>BOOKS ARE HERE TO STAY</p>
 				<p>BOOKS ARE HERE TO STAY</p>
 				<p>BOOKS ARE HERE TO STAY</p>
-				<ScrollAnimation animateIn="fadeInDown" initiallyVisible={true} animateOnce={true}>
-					<Link to="/purpose">
+				<ScrollAnimation animateIn="fadeInDown">
+					<Link to="/mission">
 						<p className="text-reddish z-30 text-lg lg:text-6xl pt-3 font-bold">BOOKS ARE HERE TO STAY</p>
 					</Link>
 				</ScrollAnimation>
