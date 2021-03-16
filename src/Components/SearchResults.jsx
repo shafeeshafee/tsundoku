@@ -15,19 +15,19 @@ function SearchResults({ bookslist }) {
 
 		return () => clearInterval(interval);
 	}, []);
-
 	return (
 		<ScrollAnimation animateIn="fadeIn">
-			<div className="px-20 mt-10 grid grid-cols-1 gap-20 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 h-36">
+			<div className="px-20 mt-10 grid grid-cols-1 gap-20 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
 				{bookslist?.map((el) => {
 					return <SingleBook bookInfo={el} key={el.id} />;
 				})}
 			</div>
-			<div className="py-10 text-center w-full static">
-				<div className="w-3/4 m-auto text-sm h-24">{quote}</div>
+			<br />
+			<hr />
+			<div className="h-96 flex justify-center">
+				<div className="py-10 pt-30 text-center w-3/4 h-36">{quote}</div>
 			</div>
 		</ScrollAnimation>
 	);
 }
-
 export default SearchResults;
