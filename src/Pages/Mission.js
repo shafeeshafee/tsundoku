@@ -3,7 +3,6 @@ import one from '../Images/1.png';
 import two from '../Images/2.png';
 import three from '../Images/3.png';
 //Mission Page
-//Tailwind Styling needed
 
 const ReturnBodyText = () => {
     return (
