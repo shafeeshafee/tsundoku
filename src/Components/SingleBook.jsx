@@ -1,6 +1,9 @@
 import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 
+import missingBook from "../Images/missingbook.png";
+import backArrow from "../Images/icons/backarrow.svg";
+
 const SingleBook = ({ bookInfo }) => {
 	const [isFlipped, setIsFlipped] = useState(false);
 
@@ -19,21 +22,12 @@ const SingleBook = ({ bookInfo }) => {
 				<div onClick={handleClick} className="flex flex-col justify-between cursor-pointer">
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
 					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
-					<img
-						className="h-48 w-36"
-						src={
-							book.imageLinks?.thumbnail
-								? book.imageLinks.thumbnail
-								: "https://www.gollancz.co.uk/wp-content/uploads/2018/07/missingbook.png"
-						}
-						alt="book cover"
-					/>
-					{/* <button onClick={handleClick}>Flip Card</button> */}
+					<img className="h-48 w-36" src={book.imageLinks?.thumbnail ? book.imageLinks.thumbnail : missingBook} alt="book cover" />
 				</div>
 
 				<div className="flex flex-col justify-evenly">
 					<div className="py-5">
-						<img onClick={handleClick} className="w-10 cursor-pointer" src="https://www.svgrepo.com/show/111215/back.svg" alt="" />
+						<img onClick={handleClick} className="w-10 cursor-pointer" src={backArrow} alt="" />
 					</div>
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
 					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
