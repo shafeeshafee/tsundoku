@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import AboutUs from "./Pages/AboutUs";
 import ErrorPage from "./Pages/ErrorPage.jsx";
@@ -10,7 +10,8 @@ import SearchBooksPage from "./Pages/SearchBooksPage.jsx";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
-import Mission from './Pages/Mission';
+import Mission from "./Pages/Mission";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -31,8 +32,10 @@ function App() {
 			window.removeEventListener("resize", hideMenu);
 		};
 	}, [isOpen]);
+
 	return (
 		<Router>
+			<ScrollToTop />
 			<Navbar toggle={toggle} />
 
 			<Dropdown isOpen={isOpen} toggle={toggle} />
