@@ -28,14 +28,14 @@ const ReturnWebStory = () => {
         // add width for 1/4 for each 
         <div className="w-3/4 m-auto">
         <div className="story-container ">
-            <div className="story-photo flex flex-col lg:flex-row border-t-2 border-b-2 items-center">
+            <div className="story-photo flex flex-col lg:flex-row border-t-2 border-b-2 items-center ">
                 <a className="lg:w-1/4 p-3" href="https://www.brainpickings.org/2015/03/24/umberto-eco-antilibrary/">
                     <img alt="AntiLibrary" src={one} width="200" height="200"/>
                 </a>
                 <div className="story-title lg:w-1/4 p-3 font-bold">
                     <h2>Why Unread Books Are More Valuable to Our Lives than Read Ones</h2>
                 </div>
-                <div className="story-description lg:w-1/4 p-3">
+                <div className="story-description w-screen px-10 lg:w-11/12 p-3">
                     <p className="text-justify">
                     The writer Umberto Eco belongs to that small class of scholars who are encyclopedic, insightful, and nondull. He is the owner of a large personal library (containing thirty thousand books) ...
                     </p>
@@ -52,7 +52,7 @@ const ReturnWebStory = () => {
                 <div className="story-title lg:w-1/4 p-3 font-bold">
                     <h2>5 Astonishing Ways Reading Changes Your Brain</h2>
                 </div> 
-                <div className="story-description lg:w-1/4 p-3">
+                <div className="story-description w-screen px-10 lg:w-11/12  p-3">
                     <p className="text-justify">
                         Since you were a child, you've probably been told to read because "it's good for you." Parents and doctors, teachers and librarians — even me on this very site — have touted the many health and wellness benefits of books, but has anyone every told you ...
                     </p>
@@ -70,7 +70,7 @@ const ReturnWebStory = () => {
                 <div className="story-title lg:w-1/4 p-3 font-bold">
                     <h2> Why Books Are Here to Stay </h2>
                 </div>
-                <div className="story-description lg:w-1/4 p-3">
+                <div className="story-description w-screen px-10 lg:w-11/12 p-3">
                     <p className="text-justify">
                         Despite the rise of e-books, physical books aren't going anywhere. Graphic designer Chip Kidd shares why their design is so lasting. The physical object of a book is almost like a person. I mean, it has a spine and it has a backbone. It has a face. Actually ...
                     </p>
@@ -93,7 +93,7 @@ function Mission() {
                 <h1 className="font-bold text-3xl"> WHY WE BELIEVE <br/>IN READING BOOKS </h1>
             </div>
             <div className="flex justify-between py-10 w-full lg:w-3/4">
-            <div className="w-1/4">
+            <div className="w-1">
                 <h3><strong> By Tsundoku Team </strong></h3>
             </div>
             <div className="w-3/4">
