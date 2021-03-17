@@ -12,6 +12,7 @@ import Footer from "./Components/Footer";
 import Dropdown from "./Components/Dropdown";
 import Mission from "./Pages/Mission";
 import ScrollToTop from "./ScrollToTop";
+import Bookstores from "./Pages/Bookstores";
 
 function App() {
 	const [isOpen, setIsOpen] = useState(false);
@@ -46,15 +47,19 @@ function App() {
 				<Route exact path="/bestsellers">
 					<BestSellersPage />
 				</Route>
+				<Route exact path="/mission">
+					<Mission />
+				</Route>
+				<Route exact path="/bookstores">
+					<Bookstores />
+				</Route>
 				<Route exact path="/aboutus">
 					<AboutUs />
 				</Route>
 				<Route exact path="/search">
 					<SearchBooksPage />
 				</Route>
-				<Route exact path="/mission">
-					<Mission />
-				</Route>
+
 				<Route to="/" component={ErrorPage} />
 			</Switch>
 			<Footer />
