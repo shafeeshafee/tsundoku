@@ -143,8 +143,7 @@ We are looking foward to many new opportunities in the near future, including:
 
 - Shan Siddiqui - [LinkedIn](https://www.linkedin.com/in/ssiddiqui007/)
 
+- Jahaziel Israel - [LinkedIn](https://www.linkedin.com/in/jahazielbenisrael/)
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-# Baby Cheetah
-<img src="https://media2.giphy.com/media/tsRqkQCs972nTvtojc/200.gif" alt="cheetah">
