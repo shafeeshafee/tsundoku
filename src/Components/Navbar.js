@@ -54,11 +54,15 @@ const Navbar = ({ toggle }) => {
 				<Link className="hover:bg-secondary p-4 lowercase" to="/bestsellers">
 					bestsellers
 				</Link>
-				<Link className="hover:bg-secondary p-4 lowercase" to="/aboutus">
-					about us
-				</Link>
+
 				<Link className="hover:bg-secondary p-4 lowercase" to="/mission">
 					mission
+				</Link>
+				<Link className="hover:bg-secondary p-4 lowercase" to="/bookstores">
+					bookstores
+				</Link>
+				<Link className="hover:bg-secondary p-4 lowercase" to="/aboutus">
+					about us
 				</Link>
 				<Link className="hover:bg-secondary p-4 lowercase" to="/search">
 					search

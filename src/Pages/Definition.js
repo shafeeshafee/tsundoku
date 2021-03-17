@@ -24,8 +24,8 @@ const Definition = () => {
 							<ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={1}>
 								<p className="py-3">
 									read more about it in our{" "}
-									<Link className="text-blue-400" to="/missions">
-										missions page
+									<Link className="text-blue-400" to="/mission">
+										mission page
 									</Link>
 									.
 								</p>
