@@ -21,3 +21,11 @@
 .shadowed {
 	filter: drop-shadow(0.05em 0.1rem 0.05rem rgb(0, 0, 0));
 }
+
+.truncate-text {
+	display: inline-block;
+	width: 200px;
+	white-space: nowrap;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+}

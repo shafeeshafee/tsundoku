@@ -1,4 +1,6 @@
 import React from "react";
+import ReactPlayer from "react-player/lazy";
+
 import one from "../Images/1.png";
 import two from "../Images/2.png";
 import three from "../Images/3.png";
@@ -99,7 +101,16 @@ const ReturnWebStory = () => {
 function Mission() {
 	return (
 		<ScrollAnimation animateIn="fadeIn">
-			<div className="bg-offwhite p-10 font-headings">
+			<ScrollAnimation animateIn="fadeIn">
+				<div className="flex flex-col py-3 justify-center border-b-8 pb-10">
+					<h1 className="text-2xl uppercase font-bold font-headings text-center p-6 pr-10">
+						The Tsundoku Project - Books Are Here To Stay
+					</h1>
+					<ReactPlayer width="100%" height="55vh" url="https://vimeo.com/525395883" />
+				</div>
+			</ScrollAnimation>
+			<hr />
+			<div className="bg-offwhite p-5 font-headings">
 				<h1 className="text-2xl uppercase font-bold font-headings text-right p-6 pr-10">mission</h1>
 				<div>
 					<h1 className="font-bold text-3xl">

@@ -21,6 +21,7 @@ const SearchBooksPage = () => {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		dispatch(fetchBooks(searchInput));
+		setSearchInput("");
 	};
 
 	useEffect(() => {

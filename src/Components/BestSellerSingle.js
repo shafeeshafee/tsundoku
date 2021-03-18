@@ -15,8 +15,7 @@ const BestSellerSingle = (props) => {
 	return (
 		<ReactCardFlip isFlipped={isFlipped}>
 			<li onClick={handleClick} className="flex flex-col justify-between cursor-pointer" key={props.primary_isbn10}>
-				<p className="w-full flex flex-wrap text-base uppercase font-bold text-reddish py-3">{props.title}</p>
-
+				<p className="w-full flex flex-wrap text-base uppercase font-bold text-reddish py-3 truncate-text">{props.title}</p>
 				<img className="h-52 w-36 shadowed" src={props.book_image} alt="book cover" />
 				<p className="pt-2">by {props.author}</p>
 			</li>
