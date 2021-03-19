@@ -6,7 +6,6 @@ import two from "../Images/2.png";
 import three from "../Images/3.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
-//Mission Page
 
 const ReturnBodyText = () => {
 	return (
@@ -30,7 +29,6 @@ const ReturnBodyText = () => {
 
 const ReturnWebStory = () => {
 	return (
-		// add width for 1/4 for each
 		<div className="w-3/4 m-auto">
 			<div className="story-container ">
 				<div className="story-photo flex flex-col lg:flex-row border-t-2 border-b-2 items-center ">
@@ -110,7 +108,7 @@ function Mission() {
 				</div>
 			</ScrollAnimation>
 			<hr />
-			<div className="bg-offwhite p-5 font-headings">
+			<div className="bg-offwhite p-5 lg:px-20 font-headings">
 				<h1 className="text-2xl uppercase font-bold font-headings text-right p-6 pr-10">mission</h1>
 				<div>
 					<h1 className="font-bold text-3xl">

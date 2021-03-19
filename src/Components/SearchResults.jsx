@@ -10,7 +10,7 @@ function SearchResults({ bookslist }) {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
-		}, 5000);
+		}, 6000);
 
 		return () => clearInterval(interval);
 	}, []);

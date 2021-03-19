@@ -14,7 +14,6 @@ const SingleBook = ({ bookInfo }) => {
 		setIsFlipped((bool) => !bool);
 	};
 
-	// console.log(bookInfo)
 	const { volumeInfo: book } = bookInfo;
 
 	const removeSpace = (entry) => entry.replaceAll(" ", "+").toLowerCase();
