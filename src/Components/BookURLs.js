@@ -4,7 +4,7 @@ import shopIcon from "../Images/icons/shop-icon.svg";
 
 const BookURLs = ({ url, description }) => {
 	return (
-		<div className="flex flex-col justify-between">
+		<div className="flex flex-col justify-between py-3">
 			<p className="pb-10 text-justify">{description}</p>
 			<div className="flex center-content">
 				<a href={url} target="_blank" rel="noreferrer">

@@ -21,11 +21,11 @@ const SearchBooksPage = () => {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		dispatch(fetchBooks(searchInput));
-		setSearchInput("");
 	};
 
 	useEffect(() => {
 		dispatch(fetchBooks(searchInput));
+		setSearchInput("");
 	}, [dispatch]);
 
 	const renderBooks = () => {

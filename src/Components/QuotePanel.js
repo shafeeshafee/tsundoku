@@ -9,7 +9,6 @@ const QuotePanel = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
-			console.log("Running every 5 seconds");
 		}, 7000);
 
 		return () => clearInterval(interval);

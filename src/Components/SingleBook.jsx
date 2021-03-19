@@ -16,7 +16,6 @@ const SingleBook = ({ bookInfo }) => {
 
 	// console.log(bookInfo)
 	const { volumeInfo: book } = bookInfo;
-	console.log(book);
 
 	const removeSpace = (entry) => entry.replaceAll(" ", "+").toLowerCase();
 
@@ -25,20 +24,22 @@ const SingleBook = ({ bookInfo }) => {
 			<ReactCardFlip isFlipped={isFlipped}>
 				<div onClick={handleClick} className="flex flex-col justify-between cursor-pointer">
 					<h1 className="text-lg uppercase font-bold text-reddish truncate-text">{book.title}</h1>
-					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
+					<p className="text-dark py-1 truncate-text">by {book.authors && book.authors[0] ? book?.authors[0] : "Unknown Author"}</p>
 					<img className="h-48 w-36" src={book.imageLinks?.thumbnail ? book.imageLinks.thumbnail : missingBook} alt="book cover" />
 				</div>
 
-				<div className="flex flex-col justify-evenly">
-					<div className="py-5">
+				<div className="flex flex-col justify-between">
+					<div className="">
 						<img onClick={handleClick} className="w-10 cursor-pointer" src={backArrow} alt="back arrow" />
 					</div>
 					<h1 className="text-lg uppercase font-bold text-reddish">{book.title}</h1>
-					<p className="text-dark py-1">by {book.authors ? book.authors[0] : ""}</p>
-					<h2>{book.subtitle ? book.subtitle : "This book does not have information"}</h2>
+					<p className="text-dark py-1">by {book.authors && book.authors[0] ? book?.authors[0] : ""}</p>
+					<hr />
 					<BookURLs
-						url={`https://www.indiebound.org/search/book?keys=${removeSpace(book.title + " " + book.authors[0])}`}
-						description={""}
+						url={`https://www.indiebound.org/search/book?keys=${removeSpace(
+							book.title + " " + `${book.authors && book.authors[0] ? book?.authors[0] : ""}`
+						)}`}
+						description={book.subtitle ? book.subtitle : "This book does not have information"}
 					/>
 				</div>
 			</ReactCardFlip>
