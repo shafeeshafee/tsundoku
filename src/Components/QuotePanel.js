@@ -9,7 +9,7 @@ const QuotePanel = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
-		}, 7000);
+		}, 6000);
 
 		return () => clearInterval(interval);
 	}, []);

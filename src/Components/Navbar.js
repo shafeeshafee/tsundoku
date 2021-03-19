@@ -10,10 +10,8 @@ const Navbar = ({ toggle }) => {
 		(e) => {
 			const window = e.currentTarget;
 			if (y > window.scrollY) {
-				console.log("scrolling up");
 				setDropShadow("shadow");
 			} else if (y < window.scrollY || y === window.scrollY) {
-				console.log("scrolling down");
 				setDropShadow("shadow-2xl");
 			}
 			setY(window.scrollY);

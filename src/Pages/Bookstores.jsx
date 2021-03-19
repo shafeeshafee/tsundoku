@@ -8,7 +8,6 @@ const Bookstores = () => {
 			<h1 className="font-headings text-center text-3xl py-5 bg-offwhite font-bold uppercase">Indie Bookstores in NYC</h1>
 			<ScrollAnimation animateIn="fadeInUp">
 				<div className="flex flex-wrap  justify-around bg-offwhite pb-10">
-					{/* { image, storeName, storeDescription, address, website } */}
 					<Bookstore
 						image="https://static01.nyt.com/images/2019/11/25/t-magazine/art/35tmag-3lives-slide-FY4X/35tmag-3lives-slide-FY4X-superJumbo.jpg"
 						storeName="Three Lives & Company"
