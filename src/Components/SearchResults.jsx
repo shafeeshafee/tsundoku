@@ -10,14 +10,13 @@ function SearchResults({ bookslist }) {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
-			console.log("Running every 5 seconds");
 		}, 5000);
 
 		return () => clearInterval(interval);
 	}, []);
 	return (
 		<ScrollAnimation animateIn="fadeIn">
-			<div className="px-20 mt-10 grid grid-cols-1 gap-20 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5">
+			<div className="px-20 mt-10 grid grid-cols-1 gap-10 xl:gap-20 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-5">
 				{bookslist?.map((el) => {
 					return <SingleBook bookInfo={el} key={el.id} />;
 				})}
