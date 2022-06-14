@@ -2,63 +2,63 @@
 	"bookstores":
 		[
             {
-                "imageUrl": "https://static01.nyt.com/images/2019/11/25/t-magazine/art/35tmag-3lives-slide-FY4X/35tmag-3lives-slide-FY4X-superJumbo.jpg",
+                "imageUrl": "/bookstore/three-lives.jpg",
                 "storeName": "Three Lives & Company",
                 "storeDescription": "Snug neighborhood bookshop selling a well-curated selection of hardcovers & paperbacks since 1968.",
                 "address": "238 W 10th St, New York, NY 10014",
                 "website" : "http://www.threelives.com"
             },
             {
-                "imageUrl": "https://cdn.shopify.com/s/files/1/0162/2182/files/FullSizeRender_large.jpg?v=1492024593",
+                "imageUrl": "/bookstore/mysterious-bookshop.jpg",
                 "storeName": "Mysterious Book Shop",
                 "storeDescription": "Bookstore with a floor-to-ceiling stock of new, used, rare & collectible crime & suspense titles.",
                 "address": "58 Warren St, New York, NY 10007",
                 "website" : "https://www.mysteriousbookshop.com"
             },
             {
-                "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Strand_Bookstore_%2848072652191%29.jpg/1280px-Strand_Bookstore_%2848072652191%29.jpg",
+                "imageUrl": "/bookstore/strand.jpg",
                 "storeName": "Strand Bookstore",
                 "storeDescription": "Landmark shop specializing in new, used & rare books from philosophy to finance, plus bookish gifts.",
                 "address": "828 Broadway, New York, NY 10003",
                 "website" : "https://www.strandbooks.com"
             },
             {
-                "imageUrl": "https://cornerbookstorenyc.com/wp-content/uploads/2018/11/corner-storefront.jpg",
+                "imageUrl": "/bookstore/corner-bookstore.jpg",
                 "storeName": "The Corner Bookstore",
                 "storeDescription": "Compact nook offering a range of adult fiction & nonfiction books, from bestsellers to travel tomes.",
                 "address": "1313 Madison Ave, New York, NY 10128",
                 "website" : "https://www.cornerbookstorenyc.com"
             },
             {
-                "imageUrl": "https://images.squarespace-cdn.com/content/v1/5424ba9ee4b0c69384ec83e1/1506993923198-JR1TT5VJQBDUG8LXO9QG/ke17ZwdGBToddI8pDm48kJUlZr2Ql5GtSKWrQpjur5t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UfNdxJhjhuaNor070w_QAc94zjGLGXCa1tSmDVMXf8RUVhMJRmnnhuU1v2M8fLFyJw/East-Village-Books.jpg?format=1500w",
+                "imageUrl": "/bookstore/eastvillage-books.jpg",
                 "storeName": "East Village Books",
                 "storeDescription": "Long-running, cozy bookstore with an eclectic collection of used books, DVDs & music.",
                 "address": "99 St Marks Pl, New York, NY 10009",
                 "website" : "https://www.newyorkcitybookbuyer.com"
             },
             {
-                "imageUrl": "https://static.wixstatic.com/media/9b7bc8_602e0c04e0fe4ab9ab637c8239a09077~mv2.jpg/v1/fill/w_640,h_640,fp_0.50_0.50,q_90/9b7bc8_602e0c04e0fe4ab9ab637c8239a09077~mv2.jpg",
+                "imageUrl": "/bookstore/cafe-con-libros.jpg",
                 "storeName": "Cafe con Libros",
                 "storeDescription": "Small, wood-clad cafe offering special caffeinated beverages & baked goods alongside assorted books.",
                 "address": "724 Prospect Pl, Brooklyn, NY 11216",
                 "website" : "https://www.cafeconlibrosbk.com"
             },
             {
-                "imageUrl": "https://cdn.vox-cdn.com/thumbor/CycmY5V5EmqtF8POQAKwpM-5jLw=/0x0:2239x1960/1200x800/filters:focal(941x801:1299x1159)/cdn.vox-cdn.com/uploads/chorus_image/image/63678631/20190406_153113.0.jpg",
+                "imageUrl": "/bookstore/litbar.jpg",
                 "storeName": "The Lit. Bar",
                 "storeDescription": "Cozy neighborhood bookshop/wine bar stocking popular titles & hosting events & readings.",
                 "address": "131 Alexander Ave, The Bronx, NY 10454",
                 "website" : "http://www.thelitbar.com"
             },
             {
-                "imageUrl": "https://i.imgur.com/Hs3JOju.jpeg",
+                "imageUrl": "/bookstore/boogiedown-books.jpg",
                 "storeName": "Boogie Down Books",
                 "storeDescription": "Boogie Down Books is a bookstore-without-walls for kids, teens, families, and educators in the Bronx and beyond.",
                 "address": "828 Broadway, New York, NY 10003",
                 "website" : "https://www.boogiedownbooks.com"
             },
             {
-                "imageUrl": "https://www.argosybooks.com/images/upload//carousel_26_1.jpg?v=1492636595",
+                "imageUrl": "/bookstore/argosy-books.jpg",
                 "storeName": "Argosy Book Store",
                 "storeDescription": "Six-story bookstore stocking an enormous array of antiquarian and out-of-print volumes since 1925.",
                 "address": "116 E 59th St, New York, NY 10022",
