@@ -21,9 +21,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// redux
-// react-redux
-// axios
-// react-router-dom
-// tailwind css
