@@ -7,7 +7,6 @@ import data from "../bookstore-data.json";
 const parseUrl = (url) => url.split("www.")[1];
 
 const Bookstores = () => {
-  console.log(data.bookstores);
   return (
     <div>
       <h1 className="font-headings text-center text-3xl py-5 bg-offwhite font-bold uppercase">
